@@ -6,15 +6,14 @@ import Reservation from "./pages/Reservation";
 import About from "./pages/About";
 import Footer from "./partials/Footer";
 
-export default function App() {
-  const [page, setPage] = useState("Home");
+export default function App(props) {
   return (
     <div>
-      <Header setPage={setPage} />
-      {page === "Home" && <Home />}
-      {page === "Service" && <Service />}
-      {page === "Reservation" && <Reservation />}
-      {page === "About" && <Service />}
+      <Header />
+      {props.page === "Home" && <Home />}
+      {props.page === "Service" && <Service />}
+      {props.page === "Reservation" && <Reservation />}
+      {props.page === "About" && <About />}
       <Footer />
     </div>
   );

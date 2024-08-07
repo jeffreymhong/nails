@@ -1,10 +1,10 @@
 import Logo from "../miscallaneous/Logo";
 import Nav from "../miscallaneous/Nav";
 
-export default function Header(props) {
+export default function Header() {
   return (
     <header>
-      <Nav setPage={props.setPage} />
+      <Nav />
       <Logo />
     </header>
   );

@@ -31,7 +31,7 @@ export default function Nav() {
         <div id="buttons">
           <Button
             onClick={() => {
-              window.location.href = "../../../index.html";
+              window.location.href = "/";
             }}
             variant="text"
             sx={customTextStyle}
@@ -40,7 +40,7 @@ export default function Nav() {
           </Button>
           <Button
             onClick={() => {
-              window.location.href = "/pages/service.html";
+              window.location.href = "/service";
             }}
             variant="text"
             sx={customTextStyle}
@@ -49,7 +49,7 @@ export default function Nav() {
           </Button>
           <Button
             onClick={() => {
-              window.location.href = "/pages/reservation.html";
+              window.location.href = "/reservation";
             }}
             variant="text"
             sx={customTextStyle}
@@ -58,7 +58,7 @@ export default function Nav() {
           </Button>
           <Button
             onClick={() => {
-              window.location.href = "/pages/about.html";
+              window.location.href = "about";
             }}
             variant="text"
             sx={customTextStyle}

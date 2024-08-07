@@ -65,21 +65,133 @@ nav {
 }
 
 .showcase div p,
-h2 {
+.showcase div h2 {
   color: #ed7e90;
   text-align: center;
 }
 
-h2 {
-  font-family: "Herr Von Muellerhoff", cursive;
-  font-weight: 400;
+.showcase div h2 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 0;
+}
+
+/* style <Service/> */
+#service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#carouselExampleAutoplaying {
+  width: 40vw;
+  border: 0.75rem #fefae0 solid;
+  margin-top: 4rem;
+}
+
+#carouselExampleAutoplaying img {
+  aspect-ratio: 1.5/1;
+}
+
+#services {
+  background-color: white;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #ed7e90;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60vw;
+  margin: 4rem 0 4rem 0;
+  border: 0.75rem #fefae0 solid;
+}
+
+#services ol li::marker {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+#services h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 2rem 0 2rem 0;
+}
+
+#services p,
+#services h1 {
+  text-align: center;
+}
+
+#services p {
+  margin-bottom: 3rem;
+}
+
+.combo {
+  margin-bottom: 3rem;
+}
+
+.combo h2,
+.combo h3 {
+  font-weight: 700;
+}
+
+.combo h2 {
+  font-size: 1.75rem;
+}
+
+.combo h3 {
+  font-size: 1.25rem;
+}
+
+/* style <Reservation/> */
+
+/* style <About/> */
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about img {
+  height: 30vh;
+  aspect-ratio: 1.5/1;
+  border: 0.75rem #fefae0 solid;
+  margin: 3rem 0 2rem 0;
+}
+
+#about p {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #ed7e90;
+  width: 60vw;
+  text-align: center;
+  margin: 1rem 0 3rem 0;
 }
 
 /* style <Footer/> */
 footer {
   height: 20vh;
   background: #fefae0;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #ed7e90;
+  font-size: 0.75rem;
+}
+
+footer p {
+  position: relative;
+  left: 1rem;
+  top: 1rem;
+}
+
+footer a {
+  color: #ed7e90;
 }

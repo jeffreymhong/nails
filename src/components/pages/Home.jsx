@@ -1,16 +1,12 @@
 import Showcase from "../miscallaneous/Showcase";
-import showcaseData from "../../scripts/data";
+import showcaseData from "../../data/data";
 import { v4 as uuidv4 } from "uuid";
 import Grow from "@mui/material/Grow";
 
 export default function Home() {
   return (
-    <section>
-      {[
-        "/pages/service.html",
-        "/pages/reservation.html",
-        "/pages/about.html",
-      ].map((page, index) => (
+    <section id="home">
+      {["/service", "/reservation", "/about"].map((page, index) => (
         <Showcase
           key={uuidv4()}
           id={index}

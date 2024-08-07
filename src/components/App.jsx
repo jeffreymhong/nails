@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./partials/Header/";
 import Home from "./pages/Home";
 import Service from "./pages/Service";
@@ -8,12 +8,16 @@ import Footer from "./partials/Footer";
 
 export default function App(props) {
   return (
-    <div>
+    <div id="app">
       <Header />
-      {props.page === "Home" && <Home />}
-      {props.page === "Service" && <Service />}
-      {props.page === "Reservation" && <Reservation />}
-      {props.page === "About" && <About />}
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/service" element={<Service />} />
+          <Route path="/reservation" element={<Reservation />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Router>
       <Footer />
     </div>
   );

@@ -1,0 +1,12 @@
+/* style <Reservation/> */
+#reservation,
+#reservation form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#reservation form {
+  background-color: white;
+  width: 60vw;
+}

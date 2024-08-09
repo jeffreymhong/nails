@@ -1,0 +1,25 @@
+/* style <About/> */
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about img {
+  height: 30vh;
+  aspect-ratio: 1.5/1;
+  border: 0.75rem #fefae0 solid;
+  margin: 3rem 0 2rem 0;
+}
+
+#about p {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #ed7e90;
+  width: 60vw;
+  text-align: center;
+  margin: 1rem 0 3rem 0;
+}

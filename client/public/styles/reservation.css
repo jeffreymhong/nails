@@ -1,12 +1,39 @@
 /* style <Reservation/> */
 #reservation,
-#reservation form {
+#reservation form,
+#reservation h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #ed7e90;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
-#reservation form {
-  background-color: white;
-  width: 60vw;
+#reservation h1 {
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+#reservation input,
+#reservation select {
+  color: #ed7e90;
+  text-align: center;
+  width: 30vw;
+  background-color: #fefae0;
+  border: 0;
+  margin: 0.5rem 0 1.25rem 0;
+}
+
+#reservation input::placeholder {
+  color: #fae560;
+}
+
+#reservation-button {
+  font-weight: 700;
+  width: 10vw !important;
+  color: #fefae0 !important;
+  background-color: #ed7e90 !important;
+  margin-bottom: 2rem !important;
 }

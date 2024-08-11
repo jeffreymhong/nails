@@ -45,10 +45,18 @@ nav {
 }
 
 /* Style <Home /> */
-.showcase {
+#home {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.showcase {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
   margin: 3rem 0 3rem 0;
+  width: 55vw;
 }
 
 .showcase img {
@@ -58,10 +66,16 @@ nav {
   border: 0.75rem #fefae0 solid;
   margin: 0 2rem 0 2rem;
   box-shadow: -5px 10px 10px #fae560;
+  opacity: 0.2;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .showcase img:hover {
   transform: scale(1.1);
+}
+
+.showcase img.visible {
+  opacity: 1;
 }
 
 .invert-shadow {
@@ -69,23 +83,33 @@ nav {
 }
 
 .showcase div {
-  margin: 0 2rem 0 2rem;
-  width: 30vw;
+  width: 25vw;
+  opacity: 0.2;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.showcase div.visible {
+  width: 25vw;
+  opacity: 1;
 }
 
 .showcase div p,
 .showcase div h2 {
   color: #ed7e90;
   text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .showcase div h2 {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
-  font-style: normal;
   font-size: 2rem;
-  margin: 0;
+  margin: 2rem 0 0 0;
+}
+
+.showcase div p {
+  margin-top: 0.5rem;
 }
 
 /* style <Footer/> */
@@ -97,12 +121,13 @@ footer {
   font-style: normal;
   color: #ed7e90;
   font-size: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 footer p {
-  position: relative;
-  left: 1rem;
-  top: 1rem;
+  margin: 0 0 0 1rem;
 }
 
 footer a {

@@ -2,19 +2,19 @@ const showcaseData = [
   {
     title: "What We Offer",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam arcu leo, dapibus et lacinia at, ullamcorper ut nisi. Proin cursus tortor efficitur mauris sodales, ac commodo ante aliquam. Etiam mollis justo nec tellus posuere euismod. Aenean iaculis augue tellus, nec tristique enim varius sed. Integer vel faucibus diam, sagittis tempus dui. Sed dictum dui ac nunc fermentum commodo. Nullam placerat turpis volutpat pulvinar aliquet. Sed imperdiet urna et mauris fermentum sagittis. Aenean a diam magna. Sed porttitor interdum diam, non condimentum turpis molestie id. Ut eu cursus urna. Praesent vestibulum lorem vel eros rutrum, eu tristique velit imperdiet. Nullam at tellus ac neque gravida hendrerit sit amet nec tellus. Nullam in iaculis dolor. Vestibulum sodales porttitor arcu, eu blandit dui gravida at.",
+      "Whether you're seeking a vibrant summer refresh or an elegant winter look, Nail125 is here to cater to your every nail need. Our year-round services and dazzling nail colors, as vibrant as our salon lights, promise an exceptional experience that will keep you coming back for more!",
     src: "https://lh3.googleusercontent.com/p/AF1QipMkjeNYpuD5MQ5KW8sbYYRgdQgzceWgxnNVmxOo=s1360-w1360-h1020",
   },
   {
     title: "Reserve A Date!",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam arcu leo, dapibus et lacinia at, ullamcorper ut nisi. Proin cursus tortor efficitur mauris sodales, ac commodo ante aliquam. Etiam mollis justo nec tellus posuere euismod. Aenean iaculis augue tellus, nec tristique enim varius sed. Integer vel faucibus diam, sagittis tempus dui. Sed dictum dui ac nunc fermentum commodo. Nullam placerat turpis volutpat pulvinar aliquet. Sed imperdiet urna et mauris fermentum sagittis. Aenean a diam magna. Sed porttitor interdum diam, non condimentum turpis molestie id. Ut eu cursus urna. Praesent vestibulum lorem vel eros rutrum, eu tristique velit imperdiet. Nullam at tellus ac neque gravida hendrerit sit amet nec tellus. Nullam in iaculis dolor. Vestibulum sodales porttitor arcu, eu blandit dui gravida at.",
+      "Bring yourself, bring a friend, bring your family, bring your dog! Whether you're treating yourself to some well-deserved pampering, sharing a special moment with a loved one, or making it a fun outing for the entire family, we invite you to reserve an unforgettable experience that will leave you feeling refreshed and cherished. Reserve a date today!",
     src: "/assets/reservation.png",
   },
   {
     title: "Who We Are",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam arcu leo, dapibus et lacinia at, ullamcorper ut nisi. Proin cursus tortor efficitur mauris sodales, ac commodo ante aliquam. Etiam mollis justo nec tellus posuere euismod. Aenean iaculis augue tellus, nec tristique enim varius sed. Integer vel faucibus diam, sagittis tempus dui. Sed dictum dui ac nunc fermentum commodo. Nullam placerat turpis volutpat pulvinar aliquet. Sed imperdiet urna et mauris fermentum sagittis. Aenean a diam magna. Sed porttitor interdum diam, non condimentum turpis molestie id. Ut eu cursus urna. Praesent vestibulum lorem vel eros rutrum, eu tristique velit imperdiet. Nullam at tellus ac neque gravida hendrerit sit amet nec tellus. Nullam in iaculis dolor. Vestibulum sodales porttitor arcu, eu blandit dui gravida at.",
+      "A devoted family man with a deep passion for both his craft and the vibrant community of New York, he has nurtured and guided Nail125 with unwavering dedication for the past 15 years. Through his vision and hard work, Nail125 has become more than just a business—it's a reflection of his values, where every client is treated with care and every detail is attended to with the utmost precision",
     src: "https://lh3.googleusercontent.com/p/AF1QipO23L1Z-qkZ8vayMN2dqtfTpia7jvMb34LVA2fa=s1360-w1360-h1020",
   },
 ];

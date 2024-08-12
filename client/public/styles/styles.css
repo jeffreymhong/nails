@@ -20,12 +20,37 @@ header {
   height: 20vh;
 }
 
-#buttons {
-  display: flex;
-  flex-direction: column;
+#menu-close {
+  position: relative;
+  transition: all 0.5s ease;
+  transform: translateX(-400px);
 }
 
-#buttons button {
+#menu-close.show {
+  transform: translateX(0);
+}
+
+#pages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease;
+  position: absolute;
+  transform: translateX(-400px);
+  top: 0;
+}
+
+#pages.show {
+  background-color: #e0e4fe;
+  height: 100vh;
+  transform: translateX(0);
+}
+
+#pages #menu-open {
+  align-self: flex-start;
+}
+
+#pages button {
   display: flex;
   flex-direction: column;
   font-family: "Quicksand", sans-serif;
@@ -36,12 +61,6 @@ header {
 
 nav {
   width: 100%;
-}
-
-.clicked {
-  height: 100vh;
-  background-color: #e0e4fe;
-  position: static;
 }
 
 /* Style <Home /> */

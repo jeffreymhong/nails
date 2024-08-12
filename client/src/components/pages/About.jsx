@@ -5,7 +5,7 @@ export default function About() {
       <p>
         My name is Peter Hong, and I am both manager and owner of Nail125. I am
         a passionate business owner, and I have come to love my time serving the
-        beautiful people of New York for the past 20 years. The recent events of
+        beautiful people of New York for the past 15 years. The recent events of
         COVID-19 unfortunately tanked my business and the morale of our workers,
         and that has been reflected in some of our negative Google Reviews.
         After much reflection, I hope to use this new website as a means to

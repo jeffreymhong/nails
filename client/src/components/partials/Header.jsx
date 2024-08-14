@@ -1,10 +1,10 @@
 import Logo from "../miscallaneous/Logo";
 import Nav from "../miscallaneous/Nav";
 
-export default function Header() {
+export default function Header(props) {
   return (
     <header>
-      <Nav />
+      <Nav setMenu={props.setMenu} />
       <Logo />
     </header>
   );

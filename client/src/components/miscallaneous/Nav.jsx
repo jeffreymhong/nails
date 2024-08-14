@@ -4,7 +4,7 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import MenuOpenIcon from "@mui/icons-material/MenuOpen";
 
-export default function Nav() {
+export default function Nav(props) {
   const [clicked, setClicked] = useState(false);
   // customize Menu (Hamburger Icon) Appearance
   const customIconStyle = {
@@ -18,6 +18,7 @@ export default function Nav() {
       <IconButton
         onClick={() => {
           setClicked((previous) => !previous);
+          props.setMenu((previous) => !previous);
         }}
         aria-label="dropdown"
         id="menu-close"
@@ -30,6 +31,7 @@ export default function Nav() {
         <IconButton
           onClick={() => {
             setClicked((previous) => !previous);
+            props.setMenu((previous) => !previous);
           }}
           aria-label="dropdown"
           id="menu-open"
@@ -81,6 +83,7 @@ export default function Nav() {
         >
           Contact
         </Button>
+        <img src="/assets/hand.png" alt="graphic of hand holding nail brush" />
       </div>
     </nav>
   );

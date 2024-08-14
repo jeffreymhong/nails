@@ -11,7 +11,7 @@ export default function Showcase(props) {
         alt="showcase image"
         onClick={props.onClick}
         ref={ref}
-        className={"invert-shadow" + (inView ? " visible" : "")}
+        className={inView ? " visible" : ""}
       />
       <div ref={ref} className={inView ? "visible" : ""}>
         <h2>{props.title}</h2>
@@ -29,7 +29,7 @@ export default function Showcase(props) {
         alt="showcase image"
         onClick={props.onClick}
         ref={ref}
-        className={"invert-shadow" + (inView ? " visible" : "")}
+        className={inView ? " visible" : ""}
       />
     </div>
   );

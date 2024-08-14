@@ -63,7 +63,8 @@ header {
   height: 200px;
   width: 20vw;
   transform: scale(1.75);
-  margin: 4rem 0 0 0;
+  position: relative;
+  top: 15vh;
 }
 nav {
   width: 100%;
@@ -109,7 +110,6 @@ nav {
 }
 
 .showcase div.visible {
-  width: 25vw;
   opacity: 1;
 }
 
@@ -152,4 +152,209 @@ footer p {
 
 footer a {
   color: #ed7e90;
+}
+
+/* responsive styling */
+@media (max-width: 575px) {
+  header {
+    height: 15vh;
+  }
+
+  #logo {
+    height: 15vh;
+  }
+
+  #pages button {
+    font-size: 1rem;
+  }
+
+  #pages img {
+    height: 60px;
+    width: 60px;
+    transform: scale(4);
+  }
+
+  .showcase {
+    width: 90vw;
+  }
+
+  .showcase img {
+    height: 25vh;
+    border: 0.5rem #fefae0 solid;
+    margin: 0;
+  }
+
+  .showcase div {
+    width: 40vw;
+  }
+
+  .showcase div h2 {
+    font-size: 1rem;
+  }
+
+  .showcase div p {
+    font-size: 0.6rem;
+  }
+
+  footer {
+    height: 15vh;
+    font-size: 0.4rem;
+  }
+
+  footer p {
+    margin: 0 0 0 0.5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  header {
+    height: 15vh;
+  }
+
+  #logo {
+    height: 15vh;
+  }
+
+  #pages button {
+    font-size: 1.5rem;
+  }
+
+  #pages img {
+    height: 80px;
+    width: 80px;
+    transform: scale(4);
+  }
+
+  .showcase {
+    width: 90vw;
+  }
+
+  .showcase img {
+    height: 35vh;
+    border: 0.75rem #fefae0 solid;
+    margin: 0;
+  }
+
+  .showcase div {
+    width: 40vw;
+  }
+
+  .showcase div h2 {
+    font-size: 1.5rem;
+  }
+
+  .showcase div p {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    height: 15vh;
+    font-size: 0.6rem;
+  }
+
+  footer p {
+    margin: 0 0 0 0.75rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  header {
+    height: 15vh;
+  }
+
+  #logo {
+    height: 15vh;
+  }
+
+  #pages button {
+    font-size: 1.75rem;
+  }
+
+  #pages img {
+    height: 60px;
+    width: 60px;
+    transform: scale(4);
+  }
+
+  .showcase {
+    width: 80vw;
+  }
+
+  .showcase img {
+    height: 40vh;
+    border: 0.75 rem #fefae0 solid;
+    margin: 0;
+  }
+
+  .showcase div {
+    width: 40vw;
+  }
+
+  .showcase div h2 {
+    font-size: 1.75rem;
+  }
+
+  .showcase div p {
+    font-size: 1rem;
+  }
+
+  footer {
+    height: 15vh;
+    font-size: 0.5rem;
+  }
+
+  footer p {
+    margin: 0 0 0 0.7rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  header {
+    height: 17vh;
+  }
+
+  #logo {
+    height: 17vh;
+  }
+
+  #pages button {
+    font-size: 2rem;
+  }
+
+  #pages img {
+    height: 100px;
+    width: 100px;
+    transform: scale(4);
+  }
+
+  .showcase {
+    width: 80vw;
+  }
+
+  .showcase img {
+    height: 50vh;
+    border: 0.75rem #fefae0 solid;
+    margin: 0;
+  }
+
+  .showcase div {
+    width: 40vw;
+  }
+
+  .showcase div h2 {
+    font-size: 2rem;
+  }
+
+  .showcase div p {
+    font-size: 1.25rem;
+  }
+
+  footer {
+    height: 15vh;
+    font-size: 0.75rem;
+  }
+
+  footer p {
+    margin: 0 0 0 1rem;
+  }
 }

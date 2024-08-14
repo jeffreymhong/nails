@@ -7,7 +7,7 @@
 
 #carouselExampleAutoplaying {
   width: 40vw;
-  border: 0.75rem #fefae0 solid;
+  border: 1rem #fefae0 solid;
   margin-top: 4rem;
 }
 
@@ -64,4 +64,85 @@
 
 .combo h3 {
   font-size: 1.25rem;
+}
+
+/* responsive styling */
+@media (max-width: 575px) {
+  #carouselExampleAutoplaying {
+    width: 80vw;
+    border: 0.5rem #fefae0 solid;
+  }
+
+  #services {
+    width: 80vw;
+  }
+  #services h1 {
+    font-size: 2rem;
+  }
+
+  #services ol li::marker {
+    font-size: 1rem;
+  }
+
+  .combo h2 {
+    font-size: 1rem;
+  }
+
+  .combo h3,
+  #services p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #carouselExampleAutoplaying {
+    width: 80vw;
+    border: 0.75rem #fefae0 solid;
+  }
+
+  #services {
+    width: 80vw;
+  }
+  #services h1 {
+    font-size: 2rem;
+  }
+
+  #services ol li::marker {
+    font-size: 1.5rem;
+  }
+
+  .combo h2 {
+    font-size: 1.5rem;
+  }
+
+  .combo h3,
+  #services p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #carouselExampleAutoplaying {
+    width: 80vw;
+    border: 0.75rem #fefae0 solid;
+  }
+
+  #services {
+    width: 80vw;
+  }
+  #services h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  #carouselExampleAutoplaying {
+    width: 60vw;
+    border: 0.75rem #fefae0 solid;
+  }
+
+  #services {
+    width: 80vw;
+  }
 }

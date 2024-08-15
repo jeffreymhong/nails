@@ -2,7 +2,7 @@ import { useInView } from "react-intersection-observer";
 
 export default function Showcase(props) {
   const { ref, inView } = useInView({
-    threshold: 0.9,
+    threshold: 0.4,
   });
   return props.id % 2 === 0 ? (
     <div className="showcase">

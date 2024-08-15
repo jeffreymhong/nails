@@ -1,6 +1,6 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { v4 as uuidv4 } from "uuid";
-import "leaflet/dist/leaflet.css";
+
 import hours from "../../data/hours";
 
 export default function Contact(props) {

@@ -37,6 +37,98 @@
 }
 
 #not-map img {
-  height: 300px;
-  margin-left: 4rem;
+  height: 20vw;
+}
+
+/* responsive styling */
+@media (max-width: 575px) {
+  #text h1,
+  #text h2 {
+    font-size: 1rem;
+  }
+
+  #text p,
+  #text a,
+  #text li {
+    font-size: 0.6rem !important;
+  }
+
+  #text small {
+    font-size: 0.4rem;
+  }
+
+  #text {
+    margin-left: 1rem;
+  }
+
+  #not-map img {
+    height: 35vw;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #text h1,
+  #text h2 {
+    font-size: 1.5rem;
+  }
+
+  #text p,
+  #text a,
+  #text li {
+    font-size: 0.8rem !important;
+  }
+
+  #text small {
+    font-size: 0.7rem;
+  }
+
+  #text {
+    margin-left: 1rem;
+  }
+
+  #not-map img {
+    height: 35vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #text h1,
+  #text h2 {
+    font-size: 1.75rem;
+  }
+
+  #text p,
+  #text a,
+  #text li {
+    font-size: 1rem !important;
+  }
+
+  #text small {
+    font-size: 0.75rem;
+  }
+
+  #text {
+    margin-left: 1rem;
+  }
+
+  #not-map img {
+    height: 30vw;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #text h1,
+  #text h2 {
+    font-size: 2rem;
+  }
+
+  #text p,
+  #text a,
+  #text li {
+    font-size: 1rem !important;
+  }
+
+  #text small {
+    font-size: 0.75rem;
+  }
 }

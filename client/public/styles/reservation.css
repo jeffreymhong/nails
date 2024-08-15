@@ -37,3 +37,46 @@
   background-color: #ed7e90 !important;
   margin-bottom: 2rem !important;
 }
+
+/* responsive styling */
+@media (max-width: 575px) {
+  #reservation input,
+  #reservation select {
+    width: 70vw;
+  }
+  #reservation-button {
+    height: 80px;
+    width: 40vw !important;
+    font-size: 1.5rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 6rem !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #reservation input,
+  #reservation select {
+    width: 60vw;
+  }
+  #reservation-button {
+    width: 15vw !important;
+    margin-bottom: 4rem !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #reservation input,
+  #reservation select {
+    width: 50vw;
+  }
+  #reservation-button {
+    margin-bottom: 4rem !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1399px) {
+  #reservation input,
+  #reservation select {
+    width: 40vw;
+  }
+}

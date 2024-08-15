@@ -60,9 +60,8 @@ header {
 }
 
 #pages img {
-  height: 200px;
-  width: 20vw;
-  transform: scale(1.75);
+  width: 100px;
+  transform: scale(4);
   position: relative;
   top: 15vh;
 }
@@ -125,7 +124,6 @@ nav {
 .showcase div h2 {
   font-weight: 700;
   font-size: 2rem;
-  margin: 2rem 0 0 0;
 }
 
 .showcase div p {
@@ -157,11 +155,15 @@ footer a {
 /* responsive styling */
 @media (max-width: 575px) {
   header {
-    height: 15vh;
+    height: 12vh;
   }
 
   #logo {
-    height: 15vh;
+    height: 10vh;
+  }
+
+  svg {
+    font-size: 3rem !important;
   }
 
   #pages button {
@@ -169,8 +171,7 @@ footer a {
   }
 
   #pages img {
-    height: 60px;
-    width: 60px;
+    width: 75px;
     transform: scale(4);
   }
 
@@ -193,11 +194,11 @@ footer a {
   }
 
   .showcase div p {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 
   footer {
-    height: 15vh;
+    height: 12vh;
     font-size: 0.4rem;
   }
 
@@ -220,7 +221,6 @@ footer a {
   }
 
   #pages img {
-    height: 80px;
     width: 80px;
     transform: scale(4);
   }
@@ -271,13 +271,12 @@ footer a {
   }
 
   #pages img {
-    height: 60px;
-    width: 60px;
+    width: 85px;
     transform: scale(4);
   }
 
   .showcase {
-    width: 80vw;
+    width: 85vw;
   }
 
   .showcase img {
@@ -308,7 +307,7 @@ footer a {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   header {
     height: 17vh;
   }
@@ -322,13 +321,12 @@ footer a {
   }
 
   #pages img {
-    height: 100px;
-    width: 100px;
+    width: 90px;
     transform: scale(4);
   }
 
   .showcase {
-    width: 80vw;
+    width: 85vw;
   }
 
   .showcase img {
@@ -351,7 +349,7 @@ footer a {
 
   footer {
     height: 15vh;
-    font-size: 0.75rem;
+    font-size: 0.6rem;
   }
 
   footer p {

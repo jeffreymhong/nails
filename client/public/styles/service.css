@@ -30,7 +30,7 @@
 }
 
 #services ol li::marker {
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .combo h2 {
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 
 .combo h3 {
@@ -77,7 +77,7 @@
     width: 80vw;
   }
   #services h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   #services ol li::marker {
@@ -114,11 +114,6 @@
   .combo h2 {
     font-size: 1.5rem;
   }
-
-  .combo h3,
-  #services p {
-    font-size: 1rem;
-  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -134,9 +129,17 @@
     font-size: 2.25rem;
     font-weight: 700;
   }
+
+  #services ol li::marker {
+    font-size: 1.75rem;
+  }
+
+  .combo h2 {
+    font-size: 1.75rem;
+  }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   #carouselExampleAutoplaying {
     width: 60vw;
     border: 0.75rem #fefae0 solid;

@@ -16,8 +16,11 @@ export default function Contact(props) {
               (212)-509-0777
             </a>{" "}
             <br />
-            <b>Email:</b>{" "}
-            <a href="mailto:nail125ny@gmail.com">nail125ny@gmail.com</a> <br />
+            <b>Email Address:</b>{" "}
+            <a id="mail" href="mailto:nail125ny@gmail.com">
+              nail125ny@gmail.com
+            </a>{" "}
+            <br />
             <small>
               *We typically respond fastest to phone calls. Emails can take a
               couple of days.

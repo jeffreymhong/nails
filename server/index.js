@@ -11,6 +11,7 @@ const app = express();
 const port = 3000;
 const directoryPath = dirname(fileURLToPath(import.meta.url));
 dotenv.config();
+let uniqueVisitors = 0;
 
 /*******************{ initialize mailing services }****************************/
 const transporter = nodemailer.createTransport({
@@ -24,6 +25,12 @@ const transporter = nodemailer.createTransport({
 transporter.verify((err, success) => {
   if (err) {
     console.error("Error with email verification\n", err.stack);
+    res.status(500).render("error.ejs", {
+      error: {
+        status: 500,
+        message: "Error with email verification server-side!",
+      },
+    });
   } else {
     console.log("Successful email verification");
   }
@@ -31,6 +38,7 @@ transporter.verify((err, success) => {
 
 /*************************{ initialize middleware }****************************/
 app.use(express.static(join(directoryPath, "../client/dist")));
+app.use(express.static(join(directoryPath, "./public")));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 /**********************{ initialize route-handlers }***************************/
@@ -130,7 +138,12 @@ app.post("/submit", (req, res) => {
   transporter.sendMail(message, (err, info) => {
     if (err) {
       console.error("Error sending email\n", err.stack);
-      res.status(500).send("Error sending request on server-side");
+      res.status(500).render("error.ejs", {
+        error: {
+          status: 500,
+          message: "Error sending reservation on server-side!",
+        },
+      });
     } else {
       console.log("Email sent successfully");
       res.redirect("/");
@@ -139,6 +152,13 @@ app.post("/submit", (req, res) => {
 });
 
 app.get("/contact", serveReact);
+
+/************************{ initialize 404 handler }****************************/
+app.use((req, res, next) => {
+  res.status(404).render("error.ejs", {
+    error: { status: 404, message: "Resource not found!" },
+  });
+});
 
 /***************************{ initialize server }******************************/
 app.listen(port, () => {

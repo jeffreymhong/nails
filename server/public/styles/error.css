@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background: #fefae0;
+  background-image: url("https://www.transparenttextures.com/patterns/brushed-alum.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+img {
+  height: 20vh;
+}
+
+p,
+h1 {
+  color: #ed7e90;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 700;
+  width: 80vw;
+}
+
+p {
+  margin: 0;
+}

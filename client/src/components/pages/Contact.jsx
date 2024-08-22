@@ -11,7 +11,10 @@ export default function Contact(props) {
         <div id="text">
           <h1>Contact Us!</h1>
           <p>
-            <b>Phone number:</b> <a href="tel:2125090777">(212)-509-0777</a>{" "}
+            <b>Phone Number:</b>{" "}
+            <a id="phone" href="tel:2125090777">
+              (212)-509-0777
+            </a>{" "}
             <br />
             <b>Email:</b>{" "}
             <a href="mailto:nail125ny@gmail.com">nail125ny@gmail.com</a> <br />

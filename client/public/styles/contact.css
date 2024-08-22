@@ -30,6 +30,10 @@
   font-size: 0.75rem;
 }
 
+#text #phone {
+  white-space: nowrap;
+}
+
 #not-map {
   display: flex;
   justify-content: center;
@@ -45,6 +49,10 @@
   #text h1,
   #text h2 {
     font-size: 1rem;
+  }
+
+  ul {
+    padding-left: 1rem !important;
   }
 
   #text p,

@@ -12,21 +12,21 @@ export default function Carousel() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
-              src="/assets/carousel/carousel1.png"
+              src="/assets/carousel/carousel1.webp"
               className="d-block w-100"
               alt="photo of displayed acrylics"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="/assets/carousel/carousel2.png"
+              src="/assets/carousel/carousel2.webp"
               className="d-block w-100"
               alt="photo of mannequin hand"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="/assets/carousel/carousel3.png"
+              src="/assets/carousel/carousel3.webp"
               className="d-block w-100"
               alt="photo of nail colors"
             />

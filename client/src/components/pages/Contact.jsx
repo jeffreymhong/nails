@@ -46,7 +46,7 @@ export default function Contact(props) {
             </span>
           </p>
         </div>
-        <img src="/assets/wall.png" alt="nail wall" />
+        <img src="/assets/wall.webp" alt="nail wall" />
       </div>
       <MapContainer
         // force a re-render

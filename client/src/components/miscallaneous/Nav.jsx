@@ -83,7 +83,7 @@ export default function Nav(props) {
         >
           Contact
         </Button>
-        <img src="/assets/hand.png" alt="graphic of hand holding nail brush" />
+        <img src="/assets/hand.webp" alt="graphic of hand holding nail brush" />
       </div>
     </nav>
   );

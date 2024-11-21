@@ -1,3 +1,3 @@
 export default function Logo() {
-  return <img src="/assets/logo.png" alt="logo image" id="logo" />;
+  return <img src="/assets/logo.webp" alt="logo image" id="logo" />;
 }

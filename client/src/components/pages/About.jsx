@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section id="about">
-      <img src="/assets/owner.png" alt="owner photo" />
+      <img src="/assets/owner.webp" alt="owner photo" />
       <p>
         My name is Peter, and I am both manager and owner of Nail125. I am a
         passionate business owner, and I have come to love my time serving the
